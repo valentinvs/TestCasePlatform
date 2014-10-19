@@ -1,8 +1,9 @@
 namespace TestCasePlatform.Web.Frontend.Migrations
 {
     using System.Data.Entity.Migrations;
+    using Models;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<TestCasePlatform.Web.Frontend.Models.TestCasePlatformDbContext>
+    public class Configuration : DbMigrationsConfiguration<TestCasePlatformDbContext>
     {
         public Configuration()
         {
